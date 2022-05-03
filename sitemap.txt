@@ -1,4 +1,4 @@
-http://example.com/movies/%E7%9C%8B%E7%94%B5%E5%BD%B1%E5%96%BD%EF%BD%9E.html
+http://example.com/movies/index.html
 http://example.com/2022/04/30/Principles/
 http://example.com/2022/04/30/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/
 http://example.com/about/index.html
