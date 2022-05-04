@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-04T03:53:54.829Z</updated>
+  <updated>2022-05-04T04:08:42.106Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>部署指南</title>
+    <title>hexo博客部署指南</title>
     <link href="http://example.com/2022/05/04/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/"/>
     <id>http://example.com/2022/05/04/%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</id>
     <published>2022-05-04T03:53:27.000Z</published>
-    <updated>2022-05-04T03:53:54.829Z</updated>
+    <updated>2022-05-04T04:08:42.106Z</updated>
     
-    <content type="html"><![CDATA[<p>安装</p><p>#官网安装Nodejs（稳定版即可）<br>node -v #查看node版本<br>npm -v #查看npm版本<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a> #安装淘宝的cnpm<br>cnpm -v #查看cnpm版本<br>cnpm install -g hexo -cli #安装hexo框架<br>hexo -v #查看hexo版本<br>mkdir blog #创建blog目录<br>cd blog #进入blog目录<br>sudo hexo init #生成博客 初始化博客<br>hexo s #启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a> #本地访问地址<br>hexo n “我的第一篇文章” #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成</p><hr><h2 id="Github-部署"><a href="#Github-部署" class="headerlink" title="Github 部署"></a>Github 部署</h2><p>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p><p>#配置_config.yml Deployment</p><p>Docs: <a href="https://hexo.io/docs/deployment.html">https://hexo.io/docs/deployment.html</a></p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>branch: master</p><p>hexo d #部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #访问这个地址可以查看博客</p><p>git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia #下载yilia主题到本地</p><p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p><p>hexo c #清理一下<br>hexo g #生成<br>hexo d #部署到远程Github仓库<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #查看博客安装</p><p>#官网安装Nodejs（稳定版即可）<br>node -v #查看node版本<br>npm -v #查看npm版本<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a> #安装淘宝的cnpm<br>cnpm -v #查看cnpm版本<br>cnpm install -g hexo -cli #安装hexo框架<br>hexo -v #查看hexo版本<br>mkdir blog #创建blog目录<br>cd blog #进入blog目录<br>sudo hexo init #生成博客 初始化博客<br>hexo s #启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a> #本地访问地址<br>hexo n “我的第一篇文章” #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成</p><hr><h2 id="Github-部署-1"><a href="#Github-部署-1" class="headerlink" title="Github 部署"></a>Github 部署</h2><p>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p><p>#配置_config.yml Deployment</p><p>Docs: <a href="https://hexo.io/docs/deployment.html">https://hexo.io/docs/deployment.html</a></p><p>deploy:<br>type: git<br>repo: <a href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>branch: master</p><p>hexo d #部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #访问这个地址可以查看博客</p><p>git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia #下载yilia主题到本地</p><p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p><p>hexo c #清理一下<br>hexo g #生成<br>hexo d #部署到远程Github仓库<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #查看博客</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>#官网安装Nodejs（稳定版即可）<br>node -v #查看node版本<br>npm -v #查看npm版本<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a> #安装淘宝的cnpm<br>cnpm -v #查看cnpm版本<br>cnpm install -g hexo -cli #安装hexo框架<br>hexo -v #查看hexo版本<br>mkdir blog #创建blog目录<br>cd blog #进入blog目录<br>sudo hexo init #生成博客 初始化博客<br>hexo s #启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a> #本地访问地址<br>hexo n 我的第一篇博客 #创建“我的第一篇博客”<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成</p><hr><h2 id="Github部署（无自购域名）"><a href="#Github部署（无自购域名）" class="headerlink" title="Github部署（无自购域名）"></a>Github部署（无自购域名）</h2><p>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p><p>#配置_config.yml Deployment</p><p>Docs: <a href="https://hexo.io/docs/deployment.html">https://hexo.io/docs/deployment.html</a></p><p>deploy:<br>    type: git<br>    repo: <a href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>    branch: master</p><p>hexo d #部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #访问这个地址可以查看博客<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> #查看博客安装</p><hr><h2 id="Vercel部署（有自购域名）"><a href="#Vercel部署（有自购域名）" class="headerlink" title="Vercel部署（有自购域名）"></a>Vercel部署（有自购域名）</h2><p>#Github创建一个新的仓库 hexo（命名随意）</p><p>git安装及配置如上</p><p>注册vercel账号（使用github注册即可）</p><p>导入github的hexo仓库，部署即可</p><p>在Settings下的Domains修改域名（默认为Vercel提供的域名）</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;安装&lt;/p&gt;
-&lt;p&gt;#官网安装Nodejs（稳定版即可）&lt;br&gt;node -v #查看node版本&lt;br&gt;npm -v #查看npm版本&lt;br&gt;npm install -g cnpm –registry=&lt;a href=&quot;http://registry.npm.taobao</summary>
+    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;#官网安装Nodejs（稳定版即可）&lt;br&gt;node -v #查看node版本&lt;br&gt;npm -v #查看npm版本&lt;br&gt;npm inst</summary>
       
     
     
